@@ -1,23 +1,16 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "转录文件",
-				"navigationStyle": "custom"
-			}
-		},
-		{
-			"path": "pages/index/result",
-			"style": {
-				"navigationBarTitleText": "转录结果",
+				"navigationBarTitleText": "基于whisper综合语音转录分析",
 				"navigationStyle": "custom"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "转录文件",
+		"navigationBarTitleText": "基于whisper综合语音转录分析",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
